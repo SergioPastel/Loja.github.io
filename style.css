@@ -92,10 +92,6 @@ h2 {
 }
 
 @media (max-width: 1245px){
-    body{
-        background-color: black;
-    }
-
     .abaixo::before{
         content: "Unfortunately our site doesn't work on this resolution";
     }
