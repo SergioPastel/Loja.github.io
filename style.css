@@ -90,3 +90,10 @@ h2 {
 }
 
 }
+
+@media (max-width: 1199px){
+    body{
+        background-color: black;
+        content: NAda;
+    }
+}
