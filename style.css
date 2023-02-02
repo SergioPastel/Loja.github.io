@@ -1,5 +1,3 @@
-@media (min-width: 1200px){
-
 *{
     margin: 0;
     padding: 0;
@@ -81,6 +79,8 @@ h2 {
     text-align: center;
 }
 
+@media (min-width: 1200px){
+
 .abaixo::before{
     content: "Employee: Welcome to our game review website, I hope you enjoy this little project of ours.";
 }
@@ -93,6 +93,6 @@ h2 {
 
 @media (max-width: 1245px){
     .abaixo::before{
-        content: "Unfortunately our site doesn't work on this resolution";
+        content: "Unfortunately our site doesn't work properly on this resolution";
     }
 }
